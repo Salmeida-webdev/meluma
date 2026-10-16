@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="132" viewBox="0 0 560 132" role="img" aria-labelledby="title desc">
+  <title id="title">MELUMA</title><desc id="desc">Marca conceitual MELUMA, com símbolo de uma cúpula iluminada.</desc>
+  <g fill="none" stroke="#e8ddcf" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 64c13-24 43-24 56 0" stroke-width="3.5"/>
+    <path d="M58 64v34M37 99h42" stroke-width="3.5"/>
+    <path d="M58 18v8M14 38l7 5M102 38l-7 5" stroke="#c8a96a" stroke-width="2.5"/>
+    <circle cx="58" cy="42" r="2.8" fill="#c8795b" stroke="none"/>
+  </g>
+  <text x="126" y="88" fill="#e8ddcf" font-family="Georgia, 'Times New Roman', serif" font-size="61" letter-spacing="8">MELUMA</text>
+  <path d="M130 106h82" stroke="#c8795b" stroke-width="1.5"/>
+</svg>

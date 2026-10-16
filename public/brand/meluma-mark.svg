@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Símbolo MELUMA</title>
+  <circle cx="60" cy="60" r="56" fill="#211821"/>
+  <g fill="none" stroke="#e8ddcf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 64c11-21 53-21 64 0"/><path d="M60 64v32M42 98h36"/>
+    <path d="M60 23v8M27 39l6 4M93 39l-6 4" stroke="#c8a96a" stroke-width="3"/>
+  </g>
+  <circle cx="60" cy="48" r="4" fill="#c8795b"/>
+</svg>

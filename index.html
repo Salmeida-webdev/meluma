@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#19131a" />
+    <title>MELUMA — um instante de luz</title>
+    <meta name="description" content="Conheça MELUMA, um conceito de luminária portátil pensado para acompanhar momentos de foco, pausa e presença." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MELUMA — um instante de luz" />
+    <meta property="og:description" content="Uma luminária em forma de pausa. Explore o conceito MELUMA." />
+    <meta property="og:image" content="/public/images/meluma-hero-desktop.webp" />
+    <link rel="icon" type="image/svg+xml" href="public/brand/meluma-mark.svg" />
+    <link rel="preload" as="image" href="public/images/meluma-hero-desktop.webp" media="(min-width: 901px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="public/images/meluma-hero-mobile.webp" media="(max-width: 900px)" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="MELUMA, início">
+        <img src="public/brand/meluma-logo-light.png" width="160" height="38" alt="MELUMA" />
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#conceito">O conceito</a>
+        <a href="#detalhes">Detalhes</a>
+        <a href="#galeria">Ambientes</a>
+      </nav>
+      <a class="header-link" href="#contato">Fale com a gente <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
+      <a href="#conceito">O conceito</a><a href="#detalhes">Detalhes</a><a href="#galeria">Ambientes</a><a href="#contato">Contato</a>
+    </nav>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <picture>
+            <source media="(max-width: 900px)" srcset="public/images/meluma-hero-mobile.webp" />
+            <img class="hero-image" src="public/images/meluma-hero-desktop.webp" width="1536" height="1024" alt="" fetchpriority="high" />
+          </picture>
+          <div class="hero-fallback"></div>
+          <div class="hero-glow"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Design para desacelerar</p>
+          <h1 id="hero-title">Um instante<br />de <em>luz.</em></h1>
+          <p class="hero-intro">Uma presença suave para acompanhar as ideias que chegam quando o mundo fica mais quieto.</p>
+          <a class="button button-light" href="#conceito">Descubra MELUMA <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-caption"><span>01 / 04</span><span>Conceito de produto</span><span>Brasil · 2026</span></div>
+        <span class="hero-side-note" aria-hidden="true">FEITA PARA O SEU TEMPO</span>
+      </section>
+
+      <section class="intro section-pad" id="conceito" aria-labelledby="intro-title">
+        <div class="section-index reveal"><span>01</span><span class="index-rule"></span><span>O conceito</span></div>
+        <div class="intro-grid">
+          <h2 class="display reveal" id="intro-title">Nem todo momento<br />precisa de <em>pressa.</em></h2>
+          <div class="intro-text reveal">
+            <p>MELUMA nasce da vontade de criar uma luz que pertença ao instante: perto da leitura, ao lado de uma conversa ou no intervalo entre uma tarefa e outra.</p>
+            <p>Um exercício de forma, sombra e atmosfera para espaços onde você gosta de estar.</p>
+            <a class="text-link" href="#detalhes">Veja o desenho de perto <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+        <div class="wordmark-stamp" aria-hidden="true">M<br />·<br />L</div>
+      </section>
+
+      <section class="design-section" id="detalhes" aria-labelledby="design-title">
+        <div class="design-visual reveal">
+          <img src="public/images/meluma-detail.webp" width="1000" height="1250" loading="lazy" alt="Vista conceitual dos volumes, tons e materiais da luminária MELUMA" />
+          <div class="detail-fallback" aria-hidden="true"><span class="detail-orbit"></span><span class="detail-label">FORMA<br />EM PAUSA</span></div>
+          <span class="image-note">ESTUDO DE FORMA · 01</span>
+        </div>
+        <div class="design-copy section-pad reveal">
+          <div class="section-index"><span>02</span><span class="index-rule"></span><span>Forma & matéria</span></div>
+          <p class="eyebrow small-eyebrow">Uma ideia, em camadas</p>
+          <h2 class="display" id="design-title">Silhueta<br />que acolhe<br /><em>o olhar.</em></h2>
+          <p>Base circular, haste delgada e uma cúpula que espalha a luz em direção à mesa. O contraste entre superfícies acetinadas e tons terrosos guia o estudo visual desta peça.</p>
+          <p class="concept-note">Materiais, cores e acabamentos mostrados aqui fazem parte da proposta visual e não representam especificações de um produto comercial.</p>
+          <div class="material-list" aria-label="Elementos visuais do conceito">
+            <span><i class="swatch swatch-brass"></i> Metal acetinado</span>
+            <span><i class="swatch swatch-clay"></i> Terracota suave</span>
+            <span><i class="swatch swatch-plum"></i> Ameixa profunda</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="mood-section section-pad" aria-labelledby="mood-title">
+        <div class="mood-heading reveal">
+          <div class="section-index"><span>03</span><span class="index-rule"></span><span>Um mesmo objeto</span></div>
+          <h2 class="display" id="mood-title">A atmosfera<br />também é <em>forma.</em></h2>
+          <p>Toque nas paletas para imaginar novas leituras do mesmo desenho.</p>
+        </div>
+        <div class="mood-picker reveal" role="group" aria-label="Paletas visuais conceituais">
+          <button class="mood-option is-active" type="button" data-mood="noite" aria-pressed="true"><span class="mood-chip mood-night"></span><span>Noite</span></button>
+          <button class="mood-option" type="button" data-mood="barro" aria-pressed="false"><span class="mood-chip mood-earth"></span><span>Barro</span></button>
+          <button class="mood-option" type="button" data-mood="bruma" aria-pressed="false"><span class="mood-chip mood-mist"></span><span>Bruma</span></button>
+        </div>
+        <div class="mood-stage" data-current-mood="noite">
+          <picture><source media="(max-width: 620px)" srcset="public/images/meluma-atmosphere-mobile.webp" /><img src="public/images/meluma-atmosphere.webp" width="1586" height="992" loading="lazy" alt="MELUMA em um ambiente noturno de leitura, com luz quente sobre uma mesa" /></picture>
+          <div class="mood-fallback" aria-hidden="true"><div class="mood-lamp"><span class="lamp-shade"></span><span class="lamp-neck"></span><span class="lamp-base"></span></div><span class="mood-title">noite / silêncio</span></div>
+          <div class="mood-caption"><span class="mood-caption-title">noite / silêncio</span><span>Uma proposta visual, muitas possibilidades.</span></div>
+        </div>
+        <p class="palette-disclaimer">As paletas são explorações visuais do conceito. Não indicam versões ou opções disponíveis para compra.</p>
+      </section>
+
+      <section class="gallery section-pad" id="galeria" aria-labelledby="gallery-title">
+        <div class="gallery-head reveal">
+          <div class="section-index"><span>04</span><span class="index-rule"></span><span>Em contexto</span></div>
+          <h2 class="display" id="gallery-title">Um lugar para<br />a <em>luz repousar.</em></h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-card-tall reveal">
+            <div class="gallery-media">
+              <img src="public/images/meluma-reading.webp" width="975" height="1300" loading="lazy" alt="Proposta de luminária MELUMA ao lado de um livro em uma mesa de leitura" />
+              <div class="gallery-fallback scene-reading" aria-hidden="true"><span class="scene-glow"></span><span class="scene-object"></span></div>
+            </div>
+            <figcaption><span class="card-index">01</span><span class="card-caption">Um capítulo a mais</span><span class="card-marker" aria-hidden="true"></span></figcaption>
+          </figure>
+          <figure class="gallery-card gallery-card-wide reveal">
+            <div class="gallery-media">
+              <img src="public/images/meluma-desk.webp" width="1400" height="933" loading="lazy" alt="Proposta de MELUMA em um espaço de trabalho ao fim do dia" />
+              <div class="gallery-fallback scene-desk" aria-hidden="true"><span class="scene-glow"></span><span class="scene-object"></span></div>
+            </div>
+            <figcaption><span class="card-index">02</span><span class="card-caption">Ideias sem ruído</span><span class="card-marker" aria-hidden="true"></span></figcaption>
+          </figure>
+        </div>
+        <p class="gallery-disclaimer">Imagens conceituais de ambientação. O produto e os ambientes representados são ilustrativos.</p>
+      </section>
+
+      <section class="faq-section section-pad" aria-labelledby="faq-title">
+        <div class="faq-intro reveal"><div class="section-index"><span>05</span><span class="index-rule"></span><span>Sem mistério</span></div><h2 class="display" id="faq-title">Perguntas<br /><em>abertas.</em></h2></div>
+        <div class="faq-list reveal">
+          <details><summary>O que é MELUMA?<span aria-hidden="true">+</span></summary><p>MELUMA é uma marca e um produto fictícios, criados para demonstrar uma experiência de apresentação de produto em um projeto de portfólio.</p></details>
+          <details><summary>Posso comprar a luminária?<span aria-hidden="true">+</span></summary><p>Esta página apresenta apenas um conceito. Não há venda, disponibilidade ou lançamento anunciados.</p></details>
+          <details><summary>As características mostradas são reais?<span aria-hidden="true">+</span></summary><p>Não. Formas, cores e materiais são estudos visuais. Nenhuma especificação técnica foi definida.</p></details>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="section-index reveal"><span>06</span><span class="index-rule"></span><span>Uma conversa</span></div>
+        <div class="contact-content reveal">
+          <p class="eyebrow">Ideias também começam assim</p>
+          <h2 class="display" id="contact-title">Vamos falar<br />sobre <em>design?</em></h2>
+          <p>MELUMA é um conceito aberto. Se quiser conversar sobre o projeto ou sobre uma página como esta, fale com Segundo pelo WhatsApp.</p>
+          <a class="button button-light" href="https://wa.me/5583998739712?text=Ol%C3%A1%2C%20vi%20o%20projeto%20conceitual%20MELUMA%20e%20gostaria%20de%20conversar%20sobre%20design." target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <span class="contact-wordmark" aria-hidden="true">MELUMA</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#inicio" aria-label="MELUMA, voltar ao início"><img src="public/brand/meluma-logo-light.png" width="132" height="31" alt="MELUMA" /></a>
+      <p class="footer-concept">Marca e produto fictícios.<br />Projeto conceitual para portfólio.</p>
+      <div class="footer-meta"><span>© <span id="year">2026</span> MELUMA</span><span>Desenvolvido por LMX Soluções Digitais/Segundo Almeida</span></div>
+    </footer>
+    <div class="concept-badge" role="note">Projeto conceitual</div>
+  </body>
+</html>
